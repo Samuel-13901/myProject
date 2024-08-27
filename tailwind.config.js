@@ -11,6 +11,8 @@ module.exports = {
         'primary': '#473BF0',
         'card_bg': '#E7E9ED',
         'content_fill': '#F4F7FA',
+        'cta_fill': '#161C2D',
+        'oval_fill': '#979797',
       },
     },
   },

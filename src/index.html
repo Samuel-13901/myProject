@@ -11,7 +11,6 @@
 
 <body>
     <main class="p-0 m-0 box-border font-ubuntu h-[5000px]">
-
         <!-- HomePage -->
         <div class="relative bg-[url('../assets/BG.svg')] h-screen  bg-cover bg-center bg-no-repeat">
 
@@ -215,7 +214,6 @@
 
         <!-- Testimonial -->
         <div class="bg-content_fill flex gap-12 justify-center py-20">
-
             <!-- Testimonial 1 -->
             <div class="max-w-fit flex flex-col items-center justify-center">
                 <!-- Logo -->
@@ -275,6 +273,68 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- CTA Form -->
+        <div
+            class="bg-[url('../assets/cta_pattern.svg')] bg-cover bg-center bg-no-repeat bg-cta_fill -z-10 flex items-center justify-evenly h-screen">
+
+            <!-- content -->
+            <div class="w-[310px] space-y-5">
+                <!-- message_logo -->
+                <div class="bg-slate-600 max-w-fit rounded-full p-4">
+                    <img src="../assets/chat-round.svg" alt="" class="size-8">
+                </div>
+                <h2 class="text-white font-semibold text-2xl">
+                    Get a free consultancy from our expert right now!
+                </h2>
+                <p class="w-[280px] text-white font-light text-[12px] opacity-70">
+                    With lots of unique blocks, you can easily build a page without coding. Build your next landing page
+                    so quickly with Albino.
+                </p>
+            </div>
+
+            <!-- Form_Container -->
+            <div class=" w-[250px] bg-slate-50 p-3 rounded-xl">
+                <form action="" class="space-y-5">
+                    <!-- Name Form Group -->
+                    <div class="flex flex-col gap-1">
+                        <label for="name" class=" cursor-pointer font-bold text-[12px] select-none">Name</label>
+                        <input class="text-[12px] px-1 py-2 focus:border-0" type="text" placeholder="i.e.John Doe" id="name"
+                            class="p-1 placeholder:text-[10px] border border-1 border-slate-200 rounded-md">
+                    </div>
+
+                    <!-- Email Form Group -->
+                    <div class="flex flex-col gap-1">
+                        <label for="mail" class=" cursor-pointer font-bold text-[12px] select-none">Email</label>
+                        <input class="text-[12px] px-1 py-2 focus:border-0" type="email" placeholder="i.e.john@gmail.com" id="mail"
+                            class="p-1 placeholder:text-[10px] border border-1 border-slate-200 rounded-md">
+                    </div>
+
+                    <!-- Phone Form Group -->
+                    <div class="flex flex-col gap-1">
+                        <label for="phone" class=" cursor-pointer font-bold text-[12px] select-none">Phone</label>
+                        <input class="text-[12px] px-1 py-2 focus:border-0" type="text" placeholder="i.e.123-456-789" id="phone"
+                            class="p-1 placeholder:text-[10px] border border-1 border-slate-200 rounded-md">
+                    </div>
+
+                      <!-- Service Form Group -->
+                      <div class="flex flex-col gap-1">
+                        <label for="service" class=" cursor-pointer font-bold text-[12px]">Which service do you need?</label>
+                        <select name="service" id="service" class="text-[12px] opacity-80">
+                            <option value="" selected>select a service</option>
+                            <option value="" >Digital Marketing</option>
+                            <option value="" >Graphic Design</option>
+                            <option value="" >Content Writing</option>
+                            <option value="" >SEO for business</option>
+                        </select>
+
+                        <button class="bg-primary text-white text-[12px] py-2 mt-5 rounded-lg font-semibold">Get free Consultancy</button>
+
+                    </div>
+
+                </form>
             </div>
 
         </div>
