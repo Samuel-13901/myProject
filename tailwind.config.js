@@ -10,6 +10,7 @@ module.exports = {
       colors:{
         'primary': '#473BF0',
         'card_bg': '#E7E9ED',
+        'content_fill': '#F4F7FA',
       },
     },
   },
